@@ -56,7 +56,6 @@ ul {
 li {
     margin-bottom: 10px;
     padding: 6px 0;
-    line-padding: 12px;
 }
 
 table {
@@ -101,6 +100,27 @@ p a {
     letter-spacing: 0.5px;
     width: 80%;
 }
+
+nav {
+    float: left;
+    width: 30%;
+}
+
+footer{
+    clear: left;
+}
+
+article{
+    float: left;
+    width: 70%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 .signature {
     margin: 0;
