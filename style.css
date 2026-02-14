@@ -24,6 +24,13 @@ h2 {
 
 h3 {
     text-align: center;
+    color: darkgray; /* dark gray */
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+h4 {
+    text-align: center;
     color: rgb(255, 255, 255); /* dark gray */
     font-weight: normal;
     margin-top: 15px;
