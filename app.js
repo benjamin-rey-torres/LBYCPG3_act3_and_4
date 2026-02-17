@@ -151,3 +151,23 @@ function clearPackets(){
     document.getElementById("presentationPacket").innerHTML = "";
     document.getElementById("applicationPacket").innerHTML = "";
 }
+
+/* 
+header requires this function and will be able to toggle display of paragrph text if toggleable class is given
+*/
+function toggleDisplay(event) {
+    var clickedHeading = event.target;
+    var paragraph = clickedHeading.nextElementSibling;
+    if (paragraph.classList.contains("toggleable")) {
+        if (paragraph.style.display === "none") {
+            paragraph.style.display = "block";
+        } else {
+            paragraph.style.display = "none";
+        }
+    }
+}
+
+function switchcolors(){
+    var element1 = document.body
+    element1.classList.toggle("dark-mode")
+}

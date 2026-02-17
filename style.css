@@ -221,3 +221,11 @@ footer {
     box-sizing: border-box;
 }
 
+.toggleable {
+    display: none;
+}
+
+.dark-mode {
+  background-color: dimgray;
+  color: #eaf4f8; /* very light blue */
+}
