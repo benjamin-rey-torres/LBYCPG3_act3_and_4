@@ -182,4 +182,17 @@ function switchcolors(){
     for(let i = 0; i < len2; i++){
         header_three[i].classList.toggle("dark-mode-header3");
     }
+
+    var footer = document.getElementsByTagName("FOOTER");
+    let len3 = footer.length;
+    for(let i = 0; i < len3; i++){
+        footer[i].classList.toggle("dark-mode-footer");
+    }
+
+    var signatures = document.getElementsByClassName("signature");
+    let len4 = signatures.length;
+    for(let i = 0; i < len4; i++){
+        signatures[i].classList.toggle("dark-mode-footer");
+    }
+
 }
