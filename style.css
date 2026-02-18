@@ -234,6 +234,7 @@ footer {
     display: none;
 }
 
+/*dark mode toggles, should be different for each object as needed*/
 .dark-mode {
   background-color: #0b3c7d;
   color: #eaf4f8; /* very light blue */

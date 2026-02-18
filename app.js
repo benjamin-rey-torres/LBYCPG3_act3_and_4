@@ -312,6 +312,7 @@ function toggleDisplay(event) {
     }
 }
 
+// function requires objects to be toggled based on different css objects depending on different html types
 function switchcolors(){
     var body = document.body;
     body.classList.toggle("dark-mode");
@@ -343,7 +344,7 @@ function switchcolors(){
 }
 
 
-
+// calculate identification score by checking value
 function checkIdentification(){
     let identificationScore = 0;
     answer1 = document.getElementById("Answer1").value.trim().toLowerCase();
